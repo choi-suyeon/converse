@@ -1,0 +1,627 @@
+*{margin:0; padding:0;}
+li {list-style: none;}
+a {display: block; text-decoration: none; color:#111; font-family: 'Noto Sans KR', sans-serif;}
+img {width:100%;}
+
+bady {width:100%; font-family: 'Noto Sans KR', sans-serif;}
+.wrap {width:100%;}
+header, section, footer {width:100%; float:left;}
+.box_center {width:1280px; margin:0 auto;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@font-face {
+    font-family:NanumSquare;
+    src:url(../font/NanumSquare.eot) format('eot');
+    src:url(../font/NanumSquare.woff) format('woff');
+    src:url(../font/NanumSquare.ttf) format('truetype');
+}
+.box_center h1 {
+    font-size:20px;
+    margin-top:150px;
+    margin-bottom:50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------HEADER-----*/
+header {
+    height:143px;
+    padding-top:40px;
+}
+
+/*----------------------------------------------------------------------LOGO-----*/
+header .h_logo {
+    width:300px;
+    position: absolute;
+    left:50%;
+    margin-left:-150px; /*width의 2분의1*/
+}
+
+/*----------------------------------------------------------------------HEADER_SNS-----*/
+header .h_sns {
+    float:left;
+}
+header .h_sns ul li {
+    width:32px;
+    float:left;
+    margin:10px;
+}
+
+/*----------------------------------------------------------------------HEADER_RIGHT-----*/
+header .h_right {
+    float:right;
+    font-family:NanumSquare;
+}
+header .h_right ul li {
+    width:32px;
+    height:32px;
+    float:left;
+    margin:10px;
+    font-size:12px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: bold;
+}
+header .h_right ul li:first-child {
+    width:40px;
+    margin-right:0px;
+}
+header .h_right ul li:nth-child(2) {
+    width:50px;
+    margin-right:5px;
+}
+header .h_right ul li:hover {
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------NAV-----*/
+nav {
+    width:100%;
+    height:45px;
+    margin:0 auto;
+    margin-top:40px;
+    background-color: #111;
+    float:left;
+    z-index: 20;
+    position: relative;
+}
+nav > ul {
+    width:1280px;
+    margin:0 auto;
+}
+nav > ul > li {
+    float:left;
+    padding-right:125px;
+}
+nav > ul > li:last-child {
+    padding-right:0px;
+}
+nav > ul > li > a {
+    font-weight:bold;
+    color:#eee;
+    font-size:14px;
+    position: relative;
+    padding:13px;
+}
+nav > ul > li.active > a {
+    color:#ffc000;
+}
+nav ul li .sub {
+    padding:40px;
+    position: absolute;
+    float:left;
+    width:600px;
+    height:701px;
+    background-color:#ffffff;
+    left:-600px;
+    box-sizing: border-box;
+}
+nav .sub .menu_1 ul {
+    margin-top:20px;
+}
+nav .sub .menu_1 ul li {
+    font-size:24px;
+}
+nav .sub .menu_1 ul li:first-child {
+    font-size:28px;
+    padding-bottom:10px;
+    font-weight: bold;
+}
+nav .sub .menu_2 ul {
+    margin-top:20px;
+}
+nav .sub .menu_2 ul li {
+    font-size:28px;
+    font-weight: bold;
+    padding-top:30px;
+}
+nav .sub .menu_3 ul li {
+    float:left;
+    margin-right:10px;
+    width:120px;
+    height:160px;
+    margin-top:30px;
+}
+nav .sub .menu_3 ul li:first-child {
+    margin-left:0;
+}
+nav .sub .menu_3 ul li p {
+    color:#111;
+    font-size:14px;
+}
+nav .sub > div ul li a:hover {
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------SLIDE-----*/
+section.slide {
+    width:100%;
+    float:left;
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+}
+section.slide ul {
+    width:7680px;
+    left:-1920px;
+    position: relative;
+}
+section.slide ul li {
+    width:1920px;
+    height:700px;
+    float:left;
+}
+section.slide .prev {
+    position: absolute;
+    left:10px;
+    width:15px;
+    top:45%;
+}
+section.slide .next {
+    position: absolute;
+    right:10px;
+    width:15px;
+    top:45%;
+}
+
+/*----------------------------------------------------------------------NEW ARRIVALS-----*/
+section.new {
+    width:100%;
+    float:left;
+}
+section.new ul {
+    width:1280px;
+    margin:0 auto;
+}
+section.new ul li {
+    width:305px;
+    height:370px;
+    float:left;
+    margin-right:20px;
+}
+section.new ul li:last-child {
+    margin-right:0px;
+}
+section.new ul li h3 {
+    font-size:16px;
+    margin-top:315px;
+}
+section.new ul li p {
+    font-size:12px;
+    margin-top:5px;
+}
+section.new .new_banner {
+    position: relative;
+}
+section.new .new_banner .front {
+    position: absolute;
+}
+section.new .new_banner .back {
+    display:none;
+}
+section.new .new_banner:hover .back {
+    display: block;
+    position: absolute;
+}
+
+/*----------------------------------------------------------------------MENU-----*/
+.menu {
+    width:100%;
+    height:1200px;
+    background-color:#f7f7f9;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    float:left;
+    margin-top:100px;
+}
+.menu .box_center h1 {
+    margin-top:100px;
+    margin-bottom:50px;
+}
+.menu .menu_in {
+    width:1280px;
+    margin:0 auto;
+    position: relative;
+}
+.menu .menu_in h3 {
+    color:#eee;
+    font-size:16px;
+    font-weight: 1000;
+    margin-bottom:10px;
+}
+.menu .menu_in h4 {
+    color:#eee;
+    font-size:14px;
+    font-weight: 500;
+}
+.menu .menu_in p {
+    color:#eee;
+    font-size:14px;
+    margin-top:10px;
+}
+.menu .menu_in a {
+    width:40px;
+    height:20px;
+    border: 1px solid #eee;
+    text-align: center;
+    color:#eee;
+    line-height: 18px;
+    margin-top:20px;
+    font-size:12px;
+}
+.menu .menu_in .m1 {
+    position: absolute;
+    width:400px;
+    height:300px;
+    background-color:#111;
+    top:0px;
+    left:380px;
+}
+.menu .menu_in .m1 > img {
+    width:360px;
+    position: absolute;
+    top:60px;
+    left:-40px;
+}
+.menu .menu_in .m1 h3 {
+    text-align: right;
+    margin-top:20px;
+    margin-right:20px;
+}
+.menu .menu_in .m1 h4 {
+    text-align: right;
+    margin-right:20px;
+}
+.menu .menu_in .m1 p {
+    text-align: right;
+    margin-right:20px;
+}
+.menu .menu_in .m1 a {
+    float:right;
+    margin-right:20px;
+}
+.menu .menu_in .m2 {
+    position: absolute;
+    width:280px;
+    height:470px;
+    background-color:#111;
+    top:0px;
+    left:820px;
+}
+.menu .menu_in .m2 > img {
+    width:330px;
+    position: absolute;
+    top:100px;
+    left:30px;
+}
+.menu .menu_in .m2 h3 {
+    text-align: center;
+    margin-top:20px
+}
+.menu .menu_in .m2 h4 {
+    text-align: center;
+}
+.menu .menu_in .m2 p {
+    text-align: center;
+}
+.menu .menu_in .m2 a {
+    margin:20px auto;
+}
+.menu .menu_in .m3 {
+    position: absolute;
+    width:280px;
+    height:200px;
+    background-color:#111;
+    top:510px;
+    left:820px;
+}
+.menu .menu_in .m3 > img {
+    width:250px;
+    position: absolute;
+    top:80px;
+    left:100px;
+}
+.menu .menu_in .m3 h3 {
+    text-align: left;
+    margin-top:10px;
+    margin-left:20px;
+}
+.menu .menu_in .m3 h4 {
+    text-align: left;
+    margin-left:20px;
+}
+.menu .menu_in .m3 p {
+    text-align: left;
+    margin-left:20px;
+}
+.menu .menu_in .m3 a {
+    float:left;
+    margin-left:20px;
+    margin-top:15px;
+}
+.menu .menu_in .m4 {
+    position: absolute;
+    width:330px;
+    height:180px;
+    background-color:#111;
+    top:670px;
+    left:450px;
+}
+.menu .menu_in .m4 > img {
+    width:220px;
+    position: absolute;
+    top:30px;
+    left:-20px;
+}
+.menu .menu_in .m4 h3 {
+    text-align: right;
+    margin-top:10px;
+    margin-right:20px;
+}
+.menu .menu_in .m4 h4 {
+    text-align: right;
+    margin-right:20px;
+}
+.menu .menu_in .m4 p {
+    text-align: right;
+    margin-right:20px;
+}
+.menu .menu_in .m4 a {
+    float:right;
+    margin-right:20px;
+    margin-top:15px;
+}
+.menu .menu_in .m5 {
+    position: absolute;
+    width:230px;
+    height:360px;
+    background-color:#111;
+    top:340px;
+    left:155px;
+}
+.menu .menu_in .m5 > img {
+    width:260px;
+    position: absolute;
+    top:190px;
+    left:-40px;
+}
+.menu .menu_in .m5 h3 {
+    text-align: center;
+    margin-top:20px
+}
+.menu .menu_in .m5 h4 {
+    text-align: center;
+}
+.menu .menu_in .m5 p {
+    text-align: center;
+}
+.menu .menu_in .m5 a {
+    margin:20px auto;
+}
+.menu .menu_in .m6 {
+    position: absolute;
+    width:330px;
+    height:290px;
+    background-color:#111;
+    top:340px;
+    left:450px;
+}
+.menu .menu_in .m6 > img {
+    width:280px;
+    position: absolute;
+    top:90px;
+    left:-20px;
+}
+.menu .menu_in .m6 h3 {
+    text-align: right;
+    margin-top:20px;
+    margin-right:20px;
+}
+.menu .menu_in .m6 h4 {
+    text-align: right;
+    margin-right:20px;
+}
+.menu .menu_in .m6 p {
+    text-align: right;
+    margin-right:20px;
+}
+.menu .menu_in .m6 a {
+    float:right;
+    margin-right:20px;
+}
+
+/*----------------------------------------------------------------------EVENT-----*/
+section.event {
+    width:100%;
+    float:left;
+}
+section.event .box_center > div {
+    width:1280px;
+    margin:0 auto;
+    float:left;
+}
+section.event .box_center .event_l {
+    width:638px;
+}
+section.event .box_center .event_r {
+    width:638px;
+}
+section.event .box_center > div > a > img {
+    border:1px solid #999;
+}
+
+/*----------------------------------------------------------------------SNS-----*/
+section.sns {
+    width:100%;
+    float:left;
+}
+section.sns .box_center ul {
+    width:240px;
+    margin:0 auto;
+}
+section.sns .box_center ul li {
+    width:40px;
+    float:left;
+    margin:10px;
+}
+
+/*----------------------------------------------------------------------INSTAGRAM-----*/
+section.instagram {
+    width:100%;
+    float:left;
+}
+section.instagram .box_center h1 {
+    width:1280px;
+    float:left;
+    text-align: center;
+    position: relative;
+}
+section.instagram .box_center h1:before {
+    content:"";
+    width:500px;
+    height:1px;
+    background-color:#666;
+    position: absolute;
+    left:0px;
+    top:12px;
+}
+section.instagram .box_center h1:after {
+    content:"";
+    width:500px;
+    height:1px;
+    background-color:#666;
+    position: absolute;
+    right:0px;
+    top:12px;
+}
+section.instagram .box_center ul {
+    width:1280px;
+    float:left;
+    margin:0 auto;
+}
+section.instagram .box_center ul li {
+    width:252px;
+    margin-right:5px;
+    float:left;
+}
+section.instagram .box_center ul li img {
+    width:100%;
+    height:100%;
+    background-position: center; /*배경가운데로*/
+    background-size:cover; /*배경사이즈조절*/
+    transition:all 0.8s;
+}
+section.instagram .box_center ul li:hover img {
+    transform:scale(1.1, 1.1);
+}
+section.instagram .box_center ul li:nth-child(5n) {
+    margin-right:0;
+}
+
+/*----------------------------------------------------------------------FOOTER-----*/
+footer {
+    width:100%;
+    margin-top:100px;
+    border-top:1px solid #999;
+    background-color: #f7f7f9;
+}
+footer .box_center {
+    width:1280px;
+    margin:0 auto;
+}
+footer .box_center .ft_top {
+    margin:50px 0;
+    float:left;
+}
+footer .box_center .ft_top .ft_top1 {
+    width:200px;
+    height:130px;
+    margin-left:26px;
+    margin-right:31px;
+    float:left;
+}
+.ft_top2,.ft_top3,.ft_top4,.ft_top5 {
+    width:252px;
+    height:130px;
+    text-align: center;
+    float:left;
+    margin-right:5px;
+}
+footer .box_center .ft_top .ft_top5:last-child {
+    margin-right:0px;
+}
+footer h2 {
+    font-size:14px;
+    margin-bottom:15px;
+    
+}
+.ft_top > div ul li a {
+    font-size:12px;
+    line-height: 25px;
+    color:#555;
+    font-weight: 400;
+}
+.ft_top > div ul li a:hover {
+    text-decoration: underline;
+}
+.ft_bottom {
+    width:100%;
+    float:left;
+    margin:0 auto;
+    background-color:#111;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.ft_bottom .box_center {
+    width:1280px;
+}
+.ft_bottom .ft_l ul {
+    width:750px;
+    float:left;
+}
+.ft_bottom .ft_r ul {
+    width:420px;
+    float:right;
+}
+.ft_bottom .ft_l ul li a {
+    font-size:12px;
+    color:#eee;
+    font-weight: 100;
+}
+.ft_bottom .ft_l ul li p {
+    font-size:12px;
+    color:#999;
+}
+.ft_bottom .ft_r ul li a {
+    font-size:12px;
+    color:#eee;
+    font-weight: 100;
+    line-height: 30px;
+}
+.ft_bottom .ft_r ul li a:hover {
+    text-decoration: underline;
+}
+.ft_bottom .ft_r ul li p {
+    font-size:12px;
+    color:#999;
+}

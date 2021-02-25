@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONVERSE★</title>
+    <!--파비콘-->
+    <link href="img/favicon.png" type="image/icon" rel="shortcut icon">
+    <!--외부CSS-->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/shoes.css" type="text/css" rel="stylesheet">
+    <!--제이쿼리-->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/converse.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="box_center">
+                <div class="h_sns">
+                    <ul>
+                        <li><a href="https://www.youtube.com"><img src="img/youtube.png" alt="유튜브"></a></li>
+                        <li><a href="https://www.twitter.com"><img src="img/twitter.png" alt="트위터"></a></li>
+                        <li><a href="https://www.facebook.com"><img src="img/facebook.png" alt="페이스북"></a></li>
+                        <li><a href="https://www.instagram.com"><img src="img/insta.png" alt="인스타그램"></a></li>
+                    </ul>
+                </div>
+                <div class="h_logo">
+                    <a href="index.html"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <div class="h_right">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#"><img src="img/heart.png" alt="찜하기"></a></li>
+                        <li><a href="#"><img src="img/cart.png" alt="장바구니"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Women</a>
+                        <div class="sub">
+                            <div class="menu_1">
+                                <ul>
+                                    <li>SHOES</li>
+                                    <li><a href="shoes.html">ALL SHOES</a></li>
+                                    <li><a href="#">BEST SELLERS</a></li>
+                                    <li><a href="#">CLASSIC CHUCK</a></li>
+                                    <li><a href="#">CHUCK 70</a></li>
+                                    <li><a href="#">CUSTOM</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_2">
+                                <ul>
+                                    <li><a href="#">CLOTHING</a></li>
+                                    <li><a href="#">ACCESSORIES</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_3">
+                                <ul>
+                                    <li><a href="#"><img src="img/w_boots.jpg" alt="부츠"></a><p>Boots</p></li>
+                                    <li><a href="#"><img src="img/w_platform.jpg" alt="플랫폼"></a><p>Platform</p></li>
+                                    <li><a href="#"><img src="img/w_onlineexclusives.jpg" alt="온라인"></a><p>Online Exclusives</p></li>
+                                    <li><a href="#"><img src="img/w_onlineoutlet.jpg" alt="아울렛"></a><p>Online Outlet</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Men</a>
+                        <div class="sub">
+                            <div class="menu_1">
+                                <ul>
+                                    <li>SHOES</li>
+                                    <li><a href="shoes.html">ALL SHOES</a></li>
+                                    <li><a href="#">BEST SELLERS</a></li>
+                                    <li><a href="#">CLASSIC CHUCK</a></li>
+                                    <li><a href="#">CHUCK 70</a></li>
+                                    <li><a href="#">CUSTOM</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_2">
+                                <ul>
+                                    <li><a href="#">CLOTHING</a></li>
+                                    <li><a href="#">ACCESSORIES</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_3">
+                                <ul>
+                                    <li><a href="#"><img src="img/m_chuck70.jpg" alt="척70"></a><p>Chuck 70</p></li>
+                                    <li><a href="#"><img src="img/m_boots.jpg" alt="부츠"></a><p>Boots</p></li>
+                                    <li><a href="#"><img src="img/m_onlineexclusives.jpg" alt="온라인"></a><p>Online Exclusives</p></li>
+                                    <li><a href="#"><img src="img/m_onlineoutlet.jpg" alt="아울렛"></a><p>Online Outlet</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Kids</a>
+                        <div class="sub">
+                            <div class="menu_1">
+                                <ul>
+                                    <li>SHOES</li>
+                                    <li><a href="#">ALL SHOES</a></li>
+                                    <li><a href="#">BEST SELLERS</a></li>
+                                    <li><a href="#">INFANT / TODDLER (SIZE 1C-10C)</a></li>
+                                    <li><a href="#">LITTLE KIDS (SIZE 10.5C-3Y)</a></li>
+                                    <li><a href="#">BIG KIDS (SIZE 3.5Y-6Y)</a></li>
+                                    <li><a href="#">CUSTOM</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_2">
+                                <ul>
+                                    <li><a href="#">CLOTHING</a></li>
+                                    <li><a href="#">ACCESSORIES</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_3">
+                                <ul>
+                                    <li><a href="#"><img src="img/k_prints.jpg" alt="프린트"></a><p>Kids' Prints</p></li>
+                                    <li><a href="#"><img src="img/k_easy.jpg" alt="쉬운온오프"></a><p>Easy-On Easy-Off</p></li>
+                                    <li><a href="#"><img src="img/k_classic.jpg" alt="클래식"></a><p>Classic Chucks</p></li>
+                                    <li><a href="#"><img src="img/k_custom.jpg" alt="커스텀"></a><p>Custom Kids'Prints</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Custom</a>
+                        <div class="sub">
+                            <div class="menu_1">
+                                <ul>
+                                    <li>SHOES</li>
+                                    <li><a href="#">ALL SHOES</a></li>
+                                    <li><a href="#">WOMEN</a></li>
+                                    <li><a href="#">NEM</a></li>
+                                    <li><a href="#">KIDS</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_3">
+                                <ul>
+                                    <li><a href="#"><img src="img/c_nba.gif" alt="NBA"></a><p>NBA City Edition</p></li>
+                                    <li><a href="#"><img src="img/c_platform.jpg" alt="플랫폼"></a><p>Platform</p></li>
+                                    <li><a href="#"><img src="img/c_boots.jpg" alt="부츠"></a><p>Boots</p></li>
+                                    <li><a href="#"><img src="img/c_color.jpg" alt="커스텀컬러"></a><p>Custom Colors</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Limited Edition</a>
+                        <div class="sub">
+                            <div class="menu_1">
+                                <ul>
+                                    <li>SHOP</li>
+                                    <li><a href="#">VIEW ALL</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_2">
+                                <ul>
+                                    <li><a href="#">LAUNCH CALENDAR</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_3">
+                                <ul>
+                                    <li><a href="#"><img src="img/l-joe.jpg" alt="JOE"></a><p>Joe Freshgoods</p></li>
+                                    <li><a href="#"><img src="img/l-horween.jpg" alt="HORWEEN"></a><p>Horween Pro Leather</p></li>
+                                    <li><a href="#"><img src="img/l-telfar.jpg" alt="TELFAR"></a><p>TELFAR</p></li>
+                                    <li><a href="#"><img src="img/l-paria.jpg" alt="PARIA"></a><p>paria / FARZANEH</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Sale</a>
+                        <div class="sub">
+                            <div class="menu_1">
+                                <ul>
+                                    <li>WOMEN</li>
+                                    <li><a href="#">ALL SALE</a></li>
+                                    <li><a href="#">SHOES</a></li>
+                                    <li><a href="#">CLOTHING / ACCESSORIES</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_2">
+                                <ul>
+                                    <li><a href="#">MEN</a></li>
+                                    <li><a href="#">KIDS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Stories</a>
+                        <div class="sub">
+                            <div class="menu_1">
+                                <ul>
+                                    <li>FEATURED</li>
+                                    <li><a href="#">SKATEBOARDING</a></li>
+                                    <li><a href="#">BASKETBALL</a></li>
+                                    <li><a href="#">CONVERSE ALL STARS</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_2">
+                                <ul>
+                                    <li><a href="#">CONVERSE G4</a></li>
+                                    <li><a href="#">ARTIST SERIES</a></li>
+                                    <li><a href="#">I STAND FOR</a></li>
+                                    <li><a href="#">ALL STORIES</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="sub_slide">
+            <img src="img/subslide.png" alt="슈즈메뉴">
+        </section>
+        <section class="sub_best">
+           <h1>BEST SELLER</h1>
+            <ul>
+                <li>
+                <div class="photo"><a href="#"><img src="img/sub1.png" alt="클래식"></a></div>
+                <div class="rank"><img src="img/best1.png" alt="1위"></div>
+                <h2>척 테일러 올스타 클래식</h2>
+                <p>55,000원</p>
+                </li>
+                <li>
+                <div class="photo"><a href="#"><img src="img/sub2.png" alt="클래식"></a></div>
+                <div class="rank"><img src="img/best2.png" alt="2위"></div>
+                <h2>척 테일러 올스타 클래식</h2>
+                <p>59,000원</p>
+                </li>
+                <li>
+                <div class="photo"><a href="#"><img src="img/sub3.png" alt="캔버스"></a></div>
+                <div class="rank"><img src="img/best3.png" alt="3위"></div>
+                <h2>척 70 빈티지 캔버스</h2>
+                <p>95,000원</p>
+                </li>
+                <li>
+                <div class="photo"><a href="#"><img src="img/sub4.png" alt="캔버스"></a></div>
+                <div class="rank"><img src="img/best4.png" alt="4위"></div>
+                <h2>척 70 빈티지 캔버스</h2>
+                <p>95,000원</p>
+                </li>
+            </ul>
+        </section>
+        <section class="sub_all">
+           <h1>ALL SHOES</h1>
+            <ul>
+                <li>
+                <a href="#"><img src="img/sub5.png" alt="클래식"></a>
+                <h2>척 70 빈티지 캔버스</h2>
+                <p>95,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub6.png" alt="클래식"></a>
+                <h2>척 70 시즈널 캔버스</h2>
+                <p>95,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub7.png" alt="클래식"></a>
+                <h2>척 테일러 올스타 아노다이즈드 메탈</h2>
+                <p>79,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub8.png" alt="클래식"></a>
+                <h2>척 테일러 올스타 시즈널 컬러</h2>
+                <p>75,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub9.png" alt="클래식"></a>
+                <h2>척 테일러 올스타 시즈널 컬러</h2>
+                <p>75,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub10.png" alt="클래식"></a>
+                <h2>척 테일러 올스타 시즈널 컬러</h2>
+                <p>75,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub11.png" alt="클래식"></a>
+                <h2>척 테일러 올스타 시즈널 컬러</h2>
+                <p>75,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub12.png" alt="클래식"></a>
+                <h2>척 70 빈티지 캔버스</h2>
+                <p>95,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub13.png" alt="클래식"></a>
+                <h2>척 테일러 올스타 시즈널 컬러</h2>
+                <p>75,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub14.png" alt="클래식"></a>
+                <h2>잭퍼셀 LP 캔버스</h2>
+                <p>75,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub15.png" alt="클래식"></a>
+                <h2>척 테일러 더블 스택 리프트 블랙아이스</h2>
+                <p>85,000원</p>
+                </li>
+                <li>
+                <a href="#"><img src="img/sub16.png" alt="클래식"></a>
+                <h2>G4 ABA</h2>
+                <p>129,000원</p>
+                </li>
+            </ul>
+        </section>
+        <section class="list_btn">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </section>
+        <footer>
+             <div class="box_center">
+                <div class="ft_top">
+                    <div class="ft_top1">
+                        <a href="index.html"><img src="img/logo2.png" alt="로고"></a>
+                    </div>
+                    <div class="ft_top2">
+                        <ul>
+                            <li><h2>SUPPORT</h2></li>
+                            <li><a href="#">고객지원센터</a></li>
+                            <li><a href="#">1:1문의</a></li>
+                            <li><a href="#">주문/배송 조회</a></li>
+                        </ul>
+                    </div>
+                    <div class="ft_top3">
+                        <ul>
+                            <li><h2>INFORMATION</h2></li>
+                            <li><a href="#">컨버스에대하여</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">매장안내</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="ft_top4">
+                        <ul>
+                            <li><h2>POLICY</h2></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                        </ul>
+                    </div>
+                    <div class="ft_top5">
+                        <ul>
+                            <li><h2>FAMILY SITES</h2></li>
+                            <li><a href="#">NIKE</a></li>
+                            <li><a href="#">Jordan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <div class="ft_bottom">
+                   <div class="box_center">
+                    <div class="ft_l">
+                        <ul>
+                            <li>
+                                <p>(유)컨버스코리아｜대표 주형준｜개인정보책임 주형준｜사업자등록번호 220-88-74818
+                                <br>통신판매업 신고번호:제2016-서울강남-00478호｜통신판매업자 신원정보 확인
+                                <br>주소:서울시 강남구 테헤란로 152 강남파이낸스센터 32F
+                                <br>고객상담팀:080-987-0182 (상담시간 월-금:AM09:00-FM05:30, 주말/공휴일 휴무｜conversekorea@converse.co.kr(24시간 접수 가능)
+                                <br><br>2020 Converse Korea LLC. All Rights Reserved.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ft_r">
+                        <ul>
+                            <li>
+                                <p>소비자피해 보증보험<br>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 구매<br>안전서비스 소비자피해보증보험 서비스를 이용하실 수 있습니다.<br>보증대상:미배송,반품/환불거부,쇼핑몰 부도</p>
+                                <a href="#">보증보험 가입사실 확인하기</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>

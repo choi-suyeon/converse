@@ -1,0 +1,93 @@
+.sub_best {
+    width:100%;
+}
+.sub_best h1 {
+    font-size:16px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:50px;
+    position: relative;
+}
+.sub_best ul {
+    width:1280px;
+    margin:0 auto;
+}
+.sub_best ul li {
+    width:320px;
+    height:400px;
+    float:left;
+    position: relative;
+}
+.sub_best .photo {
+    width:320px;
+    height:320px;
+    position: absolute;
+    border: 1px solid #999;
+}
+.sub_best .rank {
+    width:60px;
+    height:70px;
+    position: absolute;
+    margin-left:250px;
+}
+.sub_best h2 {
+    margin-top:330px;
+    font-size:14px;
+}
+.sub_best p {
+    font-size:12px;
+    margin-top:5px;
+}
+.sub_all {
+    width:100%;
+}
+.sub_all h1 {
+    font-size:16px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+.sub_all ul {
+    width:1280px;
+    margin:0 auto;
+}
+.sub_all ul li {
+    width:320px;
+    height:400px;
+    float:left;
+}
+.sub_all ul li img {
+    border: 1px solid #999;
+}
+.sub_all h2 {
+    margin-top:5px;
+    font-size:14px;
+}
+.sub_all p {
+    font-size:12px;
+    margin-top:5px;
+}
+.list_btn {
+    width:100%;
+    float:left;
+    margin:100px 0;
+}
+.list_btn ul {
+    width:198px;
+    margin:0 auto;
+}
+.list_btn ul li {
+    float:left;
+    width:40px;
+    height:40px;
+    border:1px solid #111;
+    text-align:center;
+    line-height: 35px;
+    margin:10px;
+    font-size:20px;
+    font-weight: 1000;
+}
+.list_btn ul li:hover {
+    background-color:#111;
+    color:#fff;
+}
