@@ -10,9 +10,9 @@ header, section, footer {width:100%; float:left;}
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 @font-face {
     font-family:NanumSquare;
-    src:url(../font/NanumSquare.eot) format('eot');
-    src:url(../font/NanumSquare.woff) format('woff');
-    src:url(../font/NanumSquare.ttf) format('truetype');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/converse/font/NanumSquare.eot) format('eot');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/converse/font/NanumSquare.woff) format('woff');
+    src:url(https://cdn.jsdelivr.net/gh/choi-suyeon/converse/font/NanumSquare.ttf) format('truetype');
 }
 .box_center h1 {
     font-size:20px;
